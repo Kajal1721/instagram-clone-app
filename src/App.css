@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+  /* we use height here to fulfill 100% of screen */
+  /* height: 100vh; */
+}
+
+.app__header{
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage{
+  object-fit: contain;
+}
+
+.app__signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.app__signin{
+  display: flex;
+  flex-direction: column;
+}
+
+.app__posts{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.app__postsRight{ 
+  max-width: 30%;
+  margin-left: 40px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  height: auto;
+}
+
+.app__imageupload{
+  background-color: white;
+  border-top: 1px solid lightgray;
+  /* position: sticky; */
+  bottom: 0px;
+  padding: 20px;
+}
+
+.app__imageuploadH{
+  text-align: center;
+}
